@@ -1,0 +1,29 @@
+.header__Section{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px auto;
+}
+.header__Left{
+    display: flex;
+    /* border: 1px solid rgb(212, 210, 210); */
+    border-top: 0;
+    border-left: 0;
+    box-shadow: 2px 2px 2px gray;
+    outline: none;
+    border: none;
+}
+input{
+    border: none;
+    padding: 4px 100px 4px 20px;
+}
+.searchicon{
+    color: crimson;
+}
+.header__Right{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
